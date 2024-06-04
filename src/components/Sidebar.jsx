@@ -1,7 +1,7 @@
 import SocialNetworkContainer from "./SocialNetworkContainer";
 import InformationContainer from "./InformationContainer";
 
-import Avatar from "../img/eu.jpeg";
+import Avatar from "../img/computer.webp";
 
 import "../styles/components/sidebar.sass";
 
@@ -13,8 +13,8 @@ const Sidebar = () => {
       <SocialNetworkContainer />
       <InformationContainer />
       <a href="https://drive.google.com/file/d/1av6nM7rDz3PXscVJV3bysrWuXJOqWChn/view" className="btn" download="https://drive.google.com/file/d/1av6nM7rDz3PXscVJV3bysrWuXJOqWChn/view">
-        Download Currículo
-      </a>
+        Currículo
+      </a><br/>
     </aside>
   );
 };
